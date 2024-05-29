@@ -4,7 +4,7 @@
 #include "timer_interrupts.h"
 
 #define detector_bm (1<<10)
-
+//gittest
 enum ServoState {CALIB, IDLE, IN_PROGRESS};
 struct Servo {
 	enum ServoState eState;
